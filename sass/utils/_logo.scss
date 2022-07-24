@@ -1,0 +1,29 @@
+/* logo */
+.logo {
+    display: flex;
+
+    font-family: var(--secondary-font), sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-transform: capitalize;
+    text-decoration: none;
+
+    color: var(--bcg-color);
+
+    .header & {
+            
+            color: var(--logo-txt-color);
+        }
+
+    &__cl {
+        color: var(--accent-txt-color);
+    }
+
+    &__contact {
+        text-align: left;
+    }
+}
+
+
+

@@ -1,0 +1,20 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .card__list {
+            margin-top: 50px;
+        }
+}
+
+.container ul,
+li:nth-last-of-type(-n+2) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
