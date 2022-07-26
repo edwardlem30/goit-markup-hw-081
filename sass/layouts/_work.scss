@@ -1,6 +1,24 @@
 // Чем мы занимаемся
 .work {
-    padding-bottom: 94px;
+    
+
+    @media screen and (min-width: 480px) {
+            width: 480px;
+            padding-bottom: 60px;
+            --item: 4;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            
+            padding-bottom: 60px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 1200px;
+            
+            padding-bottom: 94px;
+        }
 
     &__title {
             font-weight: 700;
